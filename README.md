@@ -1,0 +1,2 @@
+# RustyShell
+Rust based shell
