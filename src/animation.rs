@@ -2,12 +2,12 @@ use std::io::{self, Write};
 use std::time::Duration;
 use std::thread::sleep;
 
-pub fn animation_loading() {
-    let frames = ["|", "/", "-", "\\"];
-    for i in 0..20 {
+pub fn animation_loading() { // animation for loading
+    let frames = ["|", "/", "-", "\\"]; // frames for loading
+    for i in 0..20 { // loop for loading
         print!("\r[+] Loading {} ", frames[i % 4]);
-        io::stdout().flush().unwrap();
-        std::thread::sleep(std::time::Duration::from_millis(100));
+        io::stdout().flush().unwrap(); // flush output
+        std::thread::sleep(std::time::Duration::from_millis(100)); // sleep for 100ms
     }
     println!("\r[+] Meme started          ");
 }
