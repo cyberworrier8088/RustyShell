@@ -5,7 +5,7 @@ Welcome to **RustyShell**! This is a simple, fun, and fast terminal shell writte
 ## ✨ Features
 
 - **Personalized Profile**: Set your name, age, and even your "bro/sis" status!
-- **Cool Themes**: Choose from themes like `ocean`, `neon`, `forest`, `night`, and etc.
+- **Cool Themes {some times not work}**: Choose from themes like `ocean`, `neon`, `forest`, `night`, and etc.
 - **Meme Commands**: 
   - `teleport`: Jump between folders (like `cd`).
   - `vanish`: Clear your screen (like `cls`).
