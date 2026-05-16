@@ -1,5 +1,0 @@
-name=Nabhan
-age=22
-theme=sun
-os=windows
-gender=Boy
